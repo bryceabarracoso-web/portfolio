@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joren Abarracoso | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. Header / Navigation -->
+  <header class="site-header">
+    <a class="brand" href="#home">Joren Abarracoso</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="siteNav">
+      Menu
+    </button>
+
+    <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+      <a href="#home">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch between light and dark mode">Dark mode</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 2. Hero / About Me -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Hi, I&rsquo;m Joren Abarracoso. I design and build things for the web.</h1>
+        <p class="lead">BSIT student who enjoys turning messy requirements into clear, usable apps.</p>
+        <p>I'm a third-year Information Technology student. I work on system documentation, interface design, and software testing, and I'm learning front-end development with HTML, CSS, and JavaScript. Replace this paragraph with a short bio about your interests, skills, and goals.</p>
+        <a class="button" href="#projects">See my projects</a>
+      </div>
+      <img class="hero-photo" src="photo.jpg" alt="Portrait of Joren Bryce D. Abarracoso" width="320" height="320">
+    </section>
+
+    <!-- 3. Projects -->
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="card">
+          <h3>AlaBites</h3>
+          <p>A campus food ordering app concept. I wrote the systems analysis and design documentation, covering requirements, process flows, and system models.</p>
+          <p class="tags">Documentation, Systems Analysis</p>
+        </article>
+        <article class="card">
+          <h3>HEIMS Login Redesign</h3>
+          <p>A Figma redesign of a login page with accessibility in mind: clearer labels, stronger contrast, and a simpler form flow. Presented to the class.</p>
+          <p class="tags">Figma, UI/UX, Accessibility</p>
+        </article>
+        <article class="card">
+          <h3>ShopEasy QA Testing</h3>
+          <p>Manual testing of an online shop: executed test cases, logged bugs with steps to reproduce, and summarized results in a test report.</p>
+          <p class="tags">Manual QA, Bug Reporting</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- 4. Footer / Contact -->
+  <footer class="site-footer" id="contact">
+    <h2>Contact</h2>
+    <p>Want to work together or just say hi?</p>
+    <ul class="contact-list">
+      <li><a href="mailto:Bryce.Abarracoso@gmail.com">Bryce.Abarracoso@gmail.com</a></li>
+      <li><a href="https://github.com/bryceabarracoso-web" target="_blank" rel="noopener">github.com/bryceabarracoso-web</a></li>
+    </ul>
+    <p class="copyright">&copy; 2026 Joren Bryce D. Abarracoso</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
